@@ -1,0 +1,20 @@
+---
+application:
+  name: "sumantakabiraj"
+  project: "ddddddddddddddddd"
+  organization: "QoveryCommunity"
+  storage:
+  - name: "rr"
+    size: "500"
+    type: "hdd"
+    mount_point: "rrr"
+databases:
+- type: "REDIS"
+  name: "rrrrrrrr"
+  version: "6"
+routers:
+- name: "main-sumantakabiraj"
+  routes:
+  - application_name: "sumantakabiraj"
+    paths:
+    - "/*"
